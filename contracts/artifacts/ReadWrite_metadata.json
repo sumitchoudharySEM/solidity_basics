@@ -4,7 +4,34 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/6_array.sol": "ReadWrite"
+			"contracts/5_readwrite.sol": "ReadWrite"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/6_array.sol": {
-			"keccak256": "0xac5e617185a6f0bf761c53d5b2cbfa530f502f13c8b3cc42d4ab5671af93a51a",
+		"contracts/5_readwrite.sol": {
+			"keccak256": "0x2a7685c96992e5228cde3ae85a7989cdfcd9e623b568ca8824e2859b68448a7c",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://ce3c3b22d31637fe0467addf699f3cc3110050809ffe49273cc6ebec2ec2f63c",
-				"dweb:/ipfs/QmVyH23AjxdoCuZDZ65stfsfzZojkAm9SRXL6tpp5LKYc3"
+				"bzz-raw://aad17a89ecbac9391be3bc057768366bd2e7d51e2202b1ebe6f7669ac9a23306",
+				"dweb:/ipfs/QmcimnNCwZzDXMoLeQAdRFrmg9mqFLk2cu7HVzg8bVi5DX"
 			]
 		}
 	},
